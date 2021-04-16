@@ -38,12 +38,10 @@ module.exports = function (config) {
     colors: true,
     sauceLabs: {
       testName: 'Karma and Sauce Labs demo',
-      recordScreenshots: false,
       startConnect: true,
       connectOptions: {
         logfile: 'sauce_connect.log'
       },
-      public: 'public'
     },
     // Increase timeout in case connection in CI is slow
     captureTimeout: 120000,
